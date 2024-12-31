@@ -1,5 +1,7 @@
 # Bienvenue sur mon portfolio de Data Analyse !
 
+![bannière](https://github.com/HeloGlow/Portfolio/blob/main/%C3%80%20propos%20de%20moi/Banni%C3%A8re%20H%C3%A9lo%C3%AFse.png?raw=true)
+
 Jeu de mots entre mon prénom (Héloïse) et "glow" (l'éclat), **HéloGlow est une entreprise de cosmétiques fictive** servant de fil conducteur aux différents projets de ce repository.
 
 ---
