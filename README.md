@@ -15,7 +15,7 @@ Il est donc crucial de proposer des analyses pour orienter ces décisions strat�
 
 ---
 
-### :bar_chart: Mes projets data autour d'HéloGlow
+### :bar_chart: Mes projets data sur l'entreprise HéloGlow
 
 | Projet                          | Description                                    | Technologies Utilisées          |
 |---------------------------------|------------------------------------------------|---------------------------------|
