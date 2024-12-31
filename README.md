@@ -6,7 +6,7 @@ Jeu de mots entre mon prénom (Héloïse) et "glow" (l'éclat), **HéloGlow est 
 
 ---
 
-### :hibiscus: Présentation de l'entreprise
+### :hibiscus: Présentation de l'entreprise HéloGlow
 
 HéloGlow est une entreprise vendant des produits de soin et des cosmétiques de marque propre dans ses boutiques, dans des corners de grands magasins et sur son site d'e-commerce.<br>
 Elle dispose d'un programme de fidélité (la Carte Glow) permettant de cagnotter des euros via divers avantages (les Journées Éclat, la Sélection Glow, les Grands Jeux...).<br>
@@ -15,7 +15,7 @@ Il est donc crucial de proposer des analyses pour orienter ces décisions strat�
 
 ---
 
-### :bar_chart: Mes projets data
+### :bar_chart: Mes projets data autour d'HéloGlow
 
 | Projet                          | Description                                    | Technologies Utilisées          |
 |---------------------------------|------------------------------------------------|---------------------------------|
