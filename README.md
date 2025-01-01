@@ -8,7 +8,7 @@ Jeu de mots entre mon prénom (Héloïse) et "glow" (l'éclat), **HéloGlow est 
 
 ### :hibiscus: Présentation de l'entreprise HéloGlow
 
-HéloGlow est une entreprise spécialisée dans la vente de soins et de cosmétiques de marque propre, présente à la fois en boutique, dans des corners de grands magasins et sur son site d'e-commerce. Son programme de fidélité, la Carte Glow, permet à ses clients de cumuler des euros via divers avantages (comme les Journées Éclat, la Sélection Glow et les Grands Jeux). HéloGlow prévoit également d’élargir son assortiment de produits et de multiplier ses points de vente.
+HéloGlow est une entreprise spécialisée dans la vente de soins et de cosmétiques de marque propre. Elle est présente à la fois en boutique, dans des corners de grands magasins et sur son site d'e-commerce. Son programme de fidélité, la Carte Glow, permet à ses clients de cumuler des euros via divers avantages (comme les Journées Éclat, la Sélection Glow et les Grands Jeux). HéloGlow prévoit également d’élargir son assortiment de produits et de multiplier ses points de vente.
 
 Dans ce contexte en pleine évolution, les besoins en analyse de données sont nombreux : reportings et dashboards pour le suivi de l’activité, études de marché pour mieux comprendre les tendances et besoins des consommateurs, analyses exploratoires pour guider la stratégie de développement de l’entreprise...
 
