@@ -18,7 +18,7 @@ Dans ce contexte en pleine évolution, les besoins en analyse de données sont n
 
 ### :bar_chart: Mes projets data sur l'entreprise HéloGlow
 
-| Description du projet           | Technologies Utilisées                         |
+| Description du projet           | Technologies utilisées                         |
 |---------------------------------|------------------------------------------------|
 | [Projet 1](https://google.com) : Reporting et dashboard automatisés sur les performances du programme de fidélité | ![Microsoft Excel](https://img.shields.io/badge/Excel-%23217346.svg?style=for-the-badge&logo=microsoft-excel&logoColor=white) ![Looker Studio](https://img.shields.io/badge/Looker%20Studio-%23376efb.svg?style=for-the-badge&logo=looker&logoColor=white) |
 | [Projet 2](https://google.com) : Analyse du secteur des cosmétiques pour identifier des opportunités et déterminer quels types de produits lancer sur le marché | ![SQL](https://img.shields.io/badge/SQL-%23CC2927.svg?style=for-the-badge&logo=sql&logoColor=white) ![Tableau](https://img.shields.io/badge/Tableau-%23E97627.svg?style=for-the-badge&logo=tableau&logoColor=white) ![Dataiku](https://img.shields.io/badge/Dataiku-%230094CD.svg?style=for-the-badge&logo=dataiku&logoColor=white) ![Google Trends](https://img.shields.io/badge/Google%20Trends-%234285F4.svg?style=for-the-badge&logo=google&logoColor=white) |
