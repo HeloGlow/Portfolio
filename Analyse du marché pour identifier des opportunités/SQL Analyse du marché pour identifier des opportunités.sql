@@ -197,7 +197,7 @@ SELECT Product_Name AS nom_produit,
     Usage_Frequency AS frequence_utilisation,
     Price_USD AS prix_unitaire,
     -- on crée des tranches de prix unitaire
-    CONCAT('>=',FLOOR(Price_USD/10)*10,'€ & <',FLOOR(Price_USD/10)*10+10,"€") AS tranche_prix_unitaire,
+    CONCAT('>=$',FLOOR(Price_USD/10)*10,' & <$',FLOOR(Price_USD/10)*10+10) AS tranche_prix_unitaire,
     -- on calcule le prix pour 100mL
     100*Price_USD/CAST(REGEXP_REPLACE(Product_Size,r'[^0-9]','') AS INT) AS prix_100ml,
     Rating AS note,
