@@ -191,7 +191,7 @@ SELECT Product_Name AS nom_produit,
     -- on crée un libellé produit plus complet
     CONCAT(Product_Name," - ",Brand," (",Product_Size,")") AS nom_produit_complet,
     -- on identifie des niches de marché
-    CONCAT(Usage_Frequency," - ",CONCAT('>=',FLOOR(Price_USD/10)*10,'€ & <',FLOOR(Price_USD/10)*10+10),"€ - ",Skin_Type," skin - ",Gender_Target) AS segment_marche,
+    CONCAT(Usage_Frequency," usage - ",Skin_Type," skin - ",Gender_Target) AS segment_marche,
     Brand AS marque,
     Category AS categorie,
     Usage_Frequency AS frequence_utilisation,
