@@ -222,7 +222,20 @@ SELECT Product_Name AS nom_produit,
     Cruelty_Free AS cruelty_free
 FROM `pit-edh0labue-p-arrm.prod_lab_ue_etudes.HV_ANALYSES_PONCTUELLES_most_used_beauty_products_sql`
 
--- 5) Je veux faire un nuage de mots avec les termes qui apparaissent le plus dans les noms de produits => Création de la table "data_nuage_mots"
+
+-- 5) On agrège les données par segment de marché => Création de la table "data_par_segment"
+
+SELECT `categorie`,
+    `segment_marche`,
+    CONCAT(`categorie`," > ",`segment_marche`) AS categorie_segment_marche,
+    AVG(`note`) AS note_moyenne,
+    -- on calcule le nombre de produits excellents (note >=4) dans le segment
+    COUNT(DISTINCT CASE WHEN note >=4 THEN `id_produit_unique` END) AS nb_produits_excellents
+FROM `pit-edh0labue-p-arrm.prod_lab_ue_etudes.HV_ANALYSES_PONCTUELLES_data_par_produit`
+GROUP BY 1,2,3
+
+
+-- 6) Je veux faire un nuage de mots avec les termes qui apparaissent le plus dans les noms de produits => Création de la table "data_nuage_mots"
 -- Je veux exclure les termes qui font référence à une catégorie ("mascara", "blush"...)
 
 WITH exploded_Product_Name
