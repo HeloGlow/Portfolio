@@ -223,7 +223,7 @@ SELECT Product_Name AS nom_produit,
 FROM `pit-edh0labue-p-arrm.prod_lab_ue_etudes.HV_ANALYSES_PONCTUELLES_most_used_beauty_products_sql`
 
 
--- 5) On agrège les données par segment de marché => Création de la table "data_par_segment"
+-- 5) On agrège les données par segment de produits => Création de la table "data_par_segment"
 
 SELECT `categorie`,
     `segment_marche`,
