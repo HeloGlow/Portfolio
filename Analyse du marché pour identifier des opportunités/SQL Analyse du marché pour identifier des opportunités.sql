@@ -235,12 +235,13 @@ FROM `pit-edh0labue-p-arrm.prod_lab_ue_etudes.HV_ANALYSES_PONCTUELLES_data_par_p
 GROUP BY 1,2,3
 
 
--- 6) Je veux faire un nuage de mots avec les termes qui apparaissent le plus dans les noms de produits => Création de la table "data_nuage_mots"
+-- 6) Je veux faire un nuage de mots par catégorie avec les termes qui apparaissent le plus dans les noms de produits => Création de la table "data_nuage_mots"
 -- Je veux exclure les termes qui font référence à une catégorie ("mascara", "blush"...)
 
 WITH exploded_Product_Name
 AS (
-SELECT TRIM(mots) AS mots_dans_nom_produit
+SELECT Category AS categorie,
+    TRIM(mots) AS mots_dans_nom_produit
 FROM `pit-edh0labue-p-arrm.prod_lab_ue_etudes.HV_ANALYSES_PONCTUELLES_most_used_beauty_products_sql`,
 UNNEST(SPLIT(Product_Name, ' ')) AS mots),
 
@@ -250,13 +251,14 @@ SELECT TRIM(mots_a_exclure) AS mots_a_exclure
 FROM `pit-edh0labue-p-arrm.prod_lab_ue_etudes.HV_ANALYSES_PONCTUELLES_most_used_beauty_products_sql`,
 UNNEST(SPLIT(Category, ' ')) AS mots_a_exclure)
 
-SELECT a.mots_dans_nom_produit,
+SELECT categorie,
+    mots_dans_nom_produit,
     COUNT(*) AS nb_occurences
 FROM exploded_Product_Name a
 LEFT JOIN exploded_Category b
 ON a.mots_dans_nom_produit = b.mots_a_exclure
 WHERE b.mots_a_exclure IS NULL
-GROUP BY 1
+GROUP BY 1,2
 
 
 --------------------------------------------------------------------------------------------------------------------
